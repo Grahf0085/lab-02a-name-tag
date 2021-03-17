@@ -1,0 +1,58 @@
+main {
+    background-color: dimgrey;
+    font-family: fira mono, ubuntu, serif;
+    display: grid;
+    grid-template-areas: "top"
+                         "middle"
+                         "bottom";
+    width: 350px;
+    height: 200px;
+    justify-items: center;
+    text-align: center;
+}
+
+.top {
+    grid-area: top;
+    background-color: firebrick;
+    color:lavenderblush;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 5px;
+    width: 95%;
+    height: 2fr;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.middle {
+    grid-area: middle;
+    background-color:lavenderblush;
+    width: 95%;
+    height: 2fr;
+    font-style: italic;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom {
+    grid-area: bottom;
+    background-color: firebrick;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 5px;
+    width: 95%;
+    height: 1fr;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+h4 {
+    margin: 0;
+}
+
