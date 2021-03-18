@@ -1,3 +1,9 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 main {
     background-color: dimgrey;
     font-family: fira mono, ubuntu, serif;
@@ -56,3 +62,7 @@ h4 {
     margin: 0;
 }
 
+.input {
+    left: 100px;
+    top: 100px;
+}
